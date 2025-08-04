@@ -1,0 +1,9 @@
+{
+  "short_name": "LangGraph Expert Orchestrator",
+  "name": "LangGraph Expert Orchestrator - AI Security Analysis",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

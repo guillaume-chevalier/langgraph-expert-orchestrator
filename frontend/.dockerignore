@@ -1,0 +1,46 @@
+# Frontend .dockerignore for LangGraph Expert Orchestrator
+
+# Environment files (will be injected by docker-compose)
+.env
+.env.*
+
+# Dependencies (will be installed in container)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts (will be built in container)
+build/
+dist/
+
+# Testing
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# Cache
+.eslintcache
+.stylelintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md

@@ -1,0 +1,119 @@
+# Environment variables (root level no longer used)
+# Service-specific environment files (contain secrets)
+backend/.env
+frontend/.env
+
+# React environment files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js / React
+node_modules/
+/build
+/dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.tsbuildinfo
+
+# Yarn specific
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Frontend build artifacts
+frontend/build/
+frontend/dist/
+frontend/.eslintcache
+frontend/coverage/
+frontend/storybook-static/
+
+# TypeScript
+*.d.ts.map
+tsconfig.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Cache directories
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.next/
+.nuxt/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+docs/prompts/system.md
+STATE.md
+backend_copy.txt
+frontend_copy.txt
+backend/dataset/
+
+# Logs
+logs
+*.log
