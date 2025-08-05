@@ -247,6 +247,33 @@ make docker-clean       # Clean Docker resources
 
 ---
 
+## 🚀 Future Enhancements List
+
+If given more time to work on this project, here are the key enhancements I would implement:
+
+1. **Token-Level Streaming**
+   - Stream LLM responses token-by-token as they generate (currently streams complete analyses)
+   - Add visual typing effect in UI for more engaging real-time experience
+   - Implementation: Use `llm.astream()` in expert nodes with `expert_token` SSE events
+
+2. **Cross-Expert Context Sharing**
+   - Enhance expert prompts with dataset overview and peer expert insights
+   - Each expert gets context about patterns found by other experts
+   - Implementation: Build shared context object passed to all expert prompts
+
+3. **Fixed-Point Iterative Analysis**
+   - Multi-pass analysis where experts refine findings based on collective insights
+   - Continue iterations until analysis converges on stable patterns
+   - Deep research approach to multi-agent AI collaboration
+
+4. **Dynamic Expert Spawning**
+   - Route records to most appropriate expert combinations: self-adapting analysis pipeline
+   - Geographic clustering and risk correlation analysis could help share context in fixed point iterations
+   - Time-series event correlation could also help share context in fixed point iterations
+
+
+---
+
 ## 📚 Further Info
 
 - **Version info**: Python 3.10+, Node 18+, Yarn v1, React 18, Docker Compose
